@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+}
+
+#gamearea {
+  position: absolute;
+
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 600px;
+  width: 800px;
+  background-color: #4cb0b3;
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+}
+
+input {
+  color: white;
+  background-color: #4cb0b3;
+  border: 0px;
+}
+
+input:focus {
+  outline: none !important;
+  border-color: #4cb0b3;
+}
+.btn {
+  color: white;
+  background-color: #0c0818;
+}
+.b {
+  color: red;
+}
